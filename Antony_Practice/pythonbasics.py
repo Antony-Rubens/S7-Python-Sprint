@@ -15,3 +15,9 @@ while count < 3:
     print("hi")
     print(count)
     count += 1
+#for inputing in python:
+# Grabs the input as a string, then instantly converts it to an integer
+x = int(input())
+# input().split() breaks "10 20" into ["10", "20"]
+# map(int, ...) converts both to integers
+a, b = map(int, input().split())
