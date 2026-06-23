@@ -10,3 +10,4 @@ def process_placement_scores(score,l,r):
     return score,new_score
 # This line passes the integers and lists directly in, bypassing input()
 print(process_placement_scores([25, 35, 45, 15, 55, 60, 20], 1, 4))
+# This will reverse the scores from index 1 to 4 and then create a new list with scores greater than 40, adding 5 to each of those scores.
