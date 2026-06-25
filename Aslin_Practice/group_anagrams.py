@@ -15,4 +15,4 @@ class Solution:
         return list(res.values())
 
 sol = Solution()
-print(sol.groupAnagrams(["eat", "ate", "tan", "tea", "nat", "bat"]))
+print(sol.groupAnagrams(["eat", "ate", "nat", "tea", "tan", "bat"]))
